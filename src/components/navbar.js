@@ -3,13 +3,13 @@ import React from "react";
 export default function Navbar() {
     return (
         <header>
-            <div>
-                <a><a href="#about">Shivani Sharma</a></a>
+            <div className="navbar">
+                <a className="name" href="#about">Shivani Sharma</a>
                 <nav>
-                    <a href="#projects">Past Work</a>
-                    <a href="#skills">Skills</a>
+                    <a className="work" href="#projects">Past Work</a>
+                    <a className="skl" href="#skills">Skills</a>
                 </nav>
-                <a href="#contact">Hire Me</a>
+                <a className="hire" href="#contact">Hire Me</a>
 
             </div>
         </header>
