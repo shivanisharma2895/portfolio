@@ -9,8 +9,8 @@ export default function Skills() {
                     <h1> Skills</h1>
                     <p></p>
                 </div>
-                <div>
-                    {skill.map((item) => (<span>{item}</span>))}
+                <div className="skills-name">
+                    {skill.map((item) => (<span className="item-skill">{item}</span>))}
                 </div>
             </div>
         </section>
