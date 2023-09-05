@@ -13,7 +13,7 @@ export default function About() {
                     </div>
                 </div>
                 <div>
-                    <img src="C:\Users\shivani sharma\Documents\Screenshot_20230601_195009_Gallery.jpg" />
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.fxM-rmLxnLsak66J41XyYgHaFm&pid=Api&P=0&h=180" alt="" />
                 </div>
             </div>
         </section>
