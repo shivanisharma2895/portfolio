@@ -13,7 +13,7 @@ export default function About() {
                     </div>
                 </div>
                 <div>
-                    <img src="https://tse1.mm.bing.net/th?id=OIP.fxM-rmLxnLsak66J41XyYgHaFm&pid=Api&P=0&h=180" alt="" />
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.fxM-rmLxnLsak66J41XyYgHaFm&pid=Api&P=0&h=180" alt="" className="img1" />
                 </div>
             </div>
         </section>

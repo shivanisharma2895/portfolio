@@ -7,7 +7,7 @@ export default function Skills() {
             <div>
                 <div>
                     <h1> Skills</h1>
-                    <p></p>
+
                 </div>
                 <div className="skills-name">
                     {skill.map((item) => (<span className="item-skill">{item}</span>))}
