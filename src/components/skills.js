@@ -6,7 +6,7 @@ export default function Skills() {
         <section id="skills">
             <div>
                 <div>
-                    <h1> Skills</h1>
+                    <h1 id="hd"> Skills</h1>
 
                 </div>
                 <div className="skills-name">
