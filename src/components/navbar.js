@@ -8,8 +8,9 @@ export default function Navbar() {
                 <nav>
                     <a className="work" href="#projects">Past Work</a>
                     <a className="skl" href="#skills">Skills</a>
+                    <a className="hire" href="#contact">Hire Me</a>
                 </nav>
-                <a className="hire" href="#contact">Hire Me</a>
+
 
             </div>
         </header>

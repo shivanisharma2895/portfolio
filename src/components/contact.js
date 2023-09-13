@@ -25,21 +25,23 @@ export default function Contact() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <h2>Hire Me</h2>
-            <div>
-                <label>Name</label>
-                <input type="text" id="name" onChange={(e) => setName(e.target.value)} />
-            </div>
-            <div>
-                <label>Email</label>
-                <input type="email" id="email" onChange={(e) => setEmail(e.target.value)} />
-            </div>
-            <div>
-                <label>Message</label>
-                <textarea id="message" onChange={(e) => setMessage(e.target.value)} />
-            </div>
-            <button type="submit"> Submit</button>
-        </form>
+        <section id="contact">
+            <form onSubmit={handleSubmit}>
+                <h2 className="hire-me">Hire Me</h2>
+                <div>
+                    <label>Name :</label>
+                    <input type="text" id="name" onChange={(e) => setName(e.target.value)} />
+                </div>
+                <div>
+                    <label>Email :</label>
+                    <input type="email" id="email" onChange={(e) => setEmail(e.target.value)} />
+                </div>
+                <div>
+                    <label>Message :</label>
+                    <textarea id="message" onChange={(e) => setMessage(e.target.value)} />
+                </div>
+                <button type="submit"> Submit</button>
+            </form>
+        </section>
     );
 }

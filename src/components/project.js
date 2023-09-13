@@ -6,7 +6,7 @@ export default function Project() {
         <section id="projects">
             <div className="projectss">
                 <div>
-                    <h1 id="ap">Apps I've Built</h1>
+                    <h1 id="ap">Apps I've Built :-</h1>
                 </div>
                 <div className="project-map">
                     {
@@ -14,7 +14,7 @@ export default function Project() {
                             <div className="box">
                                 <a href={project.link}>
                                     <div >
-                                        <h1>{project.title}</h1>
+                                        <h1 className="my=projects">{project.title}</h1>
 
 
                                     </div>

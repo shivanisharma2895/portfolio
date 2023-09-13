@@ -6,7 +6,7 @@ export default function About() {
             <div className="intro">
                 <div className="content">
                     <h1>Hi , I'm Shivani Sharma.<br /> Frontend Developer(Immediate Joiner)</h1>
-                    <p>Frontend developer with knowledge of cutting edge technology such as React.js . Seeking to use my technical skills to contribute to an organization's success.</p>
+                    <p className="me">Frontend developer with knowledge of cutting edge technology such as React.js . <br />Seeking to use my technical skills to contribute to an organization's success.</p>
                     <div className="extras">
                         <a href="#contact">Work With Me</a>
                         <a href="#projects">See My Past Work</a>

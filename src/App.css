@@ -1,8 +1,11 @@
 .App {
-    background: url("https://wallpaperaccess.com/full/5652030.jpg");
+    /* background: url("https://wallpaperaccess.com/full/5652030.jpg"); */
+    background-color: #102E4A;
     color: white;
     height: 100%;
     display: flex;
+    flex-direction: column;
+
 
 }
 
@@ -14,6 +17,8 @@ a {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    padding: 20px;
+
 
 }
 
@@ -23,12 +28,13 @@ a {
     flex-direction: row;
     justify-content: flex-start;
     gap: 30px;
+    font-size: 17px;
 
 }
 
-h1,
-h2 {
-    font-size: medium;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 p {
@@ -37,13 +43,24 @@ p {
 }
 
 header {
-    background-color: darkgrey;
-    height: 50px;
+
+    background: #55C1FF;
+    height: 70px;
+    padding-left: 20px;
+
+
 
 }
 
+.me {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+
 
 }
 
@@ -59,7 +76,7 @@ nav {
 }
 
 .hire {
-    margin-left: 1100px;
+    margin-left: 900px;
 
 }
 
@@ -75,16 +92,19 @@ nav {
     height: 150px;
     border-radius: 60%;
     margin-left: 60px;
+    outline: none;
+    border: none;
 
 }
 
 .projectss {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    padding: 20px;
+
+
 }
+
+
 
 #sub {
 
@@ -97,7 +117,14 @@ nav {
 
 }
 
+.project-map {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 400px;
 
+    flex-wrap: wrap;
+}
 
 .box {
     border: 1px solid white;
@@ -112,18 +139,54 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 20px;
 
 }
 
 #hd {
     margin-top: 30px;
     text-align: center;
+
 }
 
 #js,
 #rct,
 #html,
 #css {
-    width: 60px;
-    height: 40px;
+    width: 70px;
+    height: 50px;
+}
+
+form {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hire-me {
+    font-size: 30px;
+
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+textarea {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-top: 3px;
+    margin-left: 80px;
+}
+
+button {
+    background: #55C1FF;
+    border-radius: 1rem;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
 }
