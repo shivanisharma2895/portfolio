@@ -11,10 +11,11 @@ export default function About() {
                         <a href="#contact">Work With Me</a>
                         <a href="#projects">See My Past Work</a>
                     </div>
+                    <div>
+                        <a href="c:\Users\shivani sharma\Downloads\Shivani's Resume (3).pdf" download>Download CV</a>
+                    </div>
                 </div>
-                <div>
-                    <img src="https://tse1.mm.bing.net/th?id=OIP.fxM-rmLxnLsak66J41XyYgHaFm&pid=Api&P=0&h=180" alt="" className="img1" />
-                </div>
+
             </div>
         </section>
     );

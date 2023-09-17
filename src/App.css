@@ -60,6 +60,8 @@ header {
 .navbar {
     display: flex;
     flex-direction: row;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
 }
@@ -121,7 +123,7 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin-left: 400px;
+    margin-left: 370px;
 
     flex-wrap: wrap;
 }
@@ -140,6 +142,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
+    margin-left: 50px;
 
 }
 
@@ -179,8 +182,8 @@ textarea {
     height: 100px;
     border-radius: 1rem;
     padding: 10px;
-    margin-top: 3px;
-    margin-left: 80px;
+    margin-top: 5px;
+
 }
 
 button {
@@ -188,5 +191,6 @@ button {
     border-radius: 1rem;
     width: 100px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
 }
