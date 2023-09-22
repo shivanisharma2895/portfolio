@@ -26,6 +26,19 @@ export default function Contact() {
 
     return (
         <section id="contact">
+            <header>
+                <div className="navbar">
+
+                    <nav>
+                        <a className="name" href="/">Shivani Sharma</a>
+                        <a className="work" href="/projects">Past Work</a>
+                        <a className="skl" href="/skills">Skills</a>
+                        <a className="hire" href="/contact">Hire Me</a>
+                    </nav>
+
+
+                </div>
+            </header>
             <form onSubmit={handleSubmit}>
                 <h2 className="hire-me">Hire Me</h2>
                 <div>
@@ -36,7 +49,7 @@ export default function Contact() {
                     <label>Email :</label>
                     <input type="email" id="email" onChange={(e) => setEmail(e.target.value)} />
                 </div>
-                <div>
+                <div id="msg">
                     <label>Message :</label>
                     <textarea id="message" onChange={(e) => setMessage(e.target.value)} />
                 </div>

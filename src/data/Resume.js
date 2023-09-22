@@ -1,0 +1,1 @@
+export const Resume = "C:\Users\shivani sharma\Desktop\shivani_sharma.CV\Shivani's Resume (3).pdf";

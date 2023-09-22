@@ -1,12 +1,26 @@
 import React from "react";
 import { Projects } from "../data/projects";
+import { MdOutlineAppRegistration } from "react-icons/md"
 
 export default function Project() {
     return (
         <section id="projects">
+            <header>
+                <div className="navbar">
+
+                    <nav>
+                        <a className="name" href="/">Shivani Sharma</a>
+                        <a className="work" href="/projects">Past Work</a>
+                        <a className="skl" href="/skills">Skills</a>
+                        <a className="hire" href="/contact">Hire Me</a>
+                    </nav>
+
+
+                </div>
+            </header>
             <div className="projectss">
                 <div>
-                    <h1 id="ap">Apps I've Built :-</h1>
+                    <h1 id="ap"><MdOutlineAppRegistration /> Apps I've Built </h1>
                 </div>
                 <div className="project-map">
                     {
@@ -14,7 +28,7 @@ export default function Project() {
                             <div className="box">
                                 <a href={project.link}>
                                     <div >
-                                        <h1 className="my=projects">{project.title}</h1>
+                                        <h2 className="my=projects">{project.title}</h2>
 
 
                                     </div>
