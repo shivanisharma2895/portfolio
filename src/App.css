@@ -1,8 +1,26 @@
+@media screen and (max-width: 600px) {
+    .App {
+        background-color: #102E4A;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hire {
+        margin-left: 100px;
+    }
+}
+
 .App {
-    /* background: url("https://wallpaperaccess.com/full/5652030.jpg"); */
+
     background-color: #102E4A;
     color: white;
-    height: 100%;
+
     display: flex;
     flex-direction: column;
 
