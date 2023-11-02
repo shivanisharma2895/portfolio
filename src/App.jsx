@@ -1,16 +1,38 @@
 
 import './App.css';
 import About from './components/about';
-import Navbar from './components/navbar';
+
 import Project from './components/project';
 import Skills from './components/skills';
 import Contact from './components/contact';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <About />
+  },
+  {
+    path: "/projects",
+    element: <Project />
+  },
+  {
+    path: "/skills",
+    element: <Skills />
+  },
+  {
+    path: "/contact",
+    element: <Contact />
+  }
+]);
+
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
 
           <Route path='/' element={<About />} />
@@ -19,7 +41,9 @@ function App() {
           <Route path='/contact' element={<Contact />} />
 
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+      <RouterProvider router={router} />
     </div>
   );
 }

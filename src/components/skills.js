@@ -1,6 +1,7 @@
 import React from "react";
 import { skill } from "../data/skill";
-import { GiSkills } from "react-icons/gi"
+import { GiSkills } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 export default function Skills() {
     return (
@@ -9,10 +10,10 @@ export default function Skills() {
                 <div className="navbar">
 
                     <nav>
-                        <a className="name" href="/">Shivani Sharma</a>
-                        <a className="work" href="/projects">Past Work</a>
-                        <a className="skl" href="/skills">Skills</a>
-                        <a className="hire" href="/contact">Hire Me</a>
+                        <Link to="/"> Shivani Sharma</Link>
+                        <Link to="/projects">  Past Work</Link>
+                        <Link to="/skills">Skills</Link>
+                        <Link to="/contact">Hire Me</Link>
                     </nav>
 
 
